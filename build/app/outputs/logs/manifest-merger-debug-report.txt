@@ -48,7 +48,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP
 		ADDED from C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:4:9-36
 	android:icon
 		ADDED from C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:5:9-43
-activity#com.example.pertemuan_9.MainActivity
+activity#com.example.food_market.MainActivity
 ADDED from C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:6:9-34:20
 	android:launchMode
 		ADDED from C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:8:13-43

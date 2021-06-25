@@ -68,6 +68,11 @@ class GeneralPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Container(
+                      height: defaultMargin,
+                      width: double.infinity,
+                      color: "FAFAFC".toColor(),
+                    ),
                     child ?? SizedBox()
                   ],
                 ),

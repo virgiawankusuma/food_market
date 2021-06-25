@@ -86,6 +86,12 @@
       "languageVersion": "2.6"
     },
     {
+      "name": "flutter_spinkit",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -272,13 +278,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "pertemuan_9",
+      "name": "food_market",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-06-25T17:06:11.678498Z",
+  "generated": "2021-06-25T18:16:17.451548Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }

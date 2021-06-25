@@ -1,6 +1,6 @@
 {
-    "name": "pertemuan_9",
-    "short_name": "pertemuan_9",
+    "name": "food_market",
+    "short_name": "food_market",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

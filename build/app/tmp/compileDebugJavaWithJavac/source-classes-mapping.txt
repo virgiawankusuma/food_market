@@ -1,4 +1,4 @@
 io/flutter/plugins/GeneratedPluginRegistrant.java
  io.flutter.plugins.GeneratedPluginRegistrant
-com/example/pertemuan_9/BuildConfig.java
- com.example.pertemuan_9.BuildConfig
+com/example/food_market/BuildConfig.java
+ com.example.food_market.BuildConfig

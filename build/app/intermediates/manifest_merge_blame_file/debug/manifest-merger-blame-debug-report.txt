@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.pertemuan_9"
+3    package="com.example.food_market"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -22,11 +22,11 @@
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
 19-->C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:5:9-43
-20        android:label="pertemuan_9" >
+20        android:label="food_market" >
 20-->C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:4:9-36
 21        <activity
 21-->C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:6:9-34:20
-22            android:name="com.example.pertemuan_9.MainActivity"
+22            android:name="com.example.food_market.MainActivity"
 22-->C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:7:13-41
 23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 23-->C:\src\myapp\food_market\android\app\src\main\AndroidManifest.xml:10:13-163
