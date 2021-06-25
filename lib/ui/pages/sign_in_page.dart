@@ -1,4 +1,4 @@
-part of "pages.dart";
+part of 'pages.dart';
 
 class SignInPage extends StatefulWidget {
   @override
@@ -79,11 +79,9 @@ class _SignInPageState extends State<SignInPage> {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
                     color: mainColor,
-                    child: Text(
-                      'Sign In',
-                      style: GoogleFonts.poppins(
-                          color: Colors.white, fontWeight: FontWeight.w500),
-                    ),
+                    child: Text('Sign In',
+                        style: GoogleFonts.poppins(
+                            color: Colors.white, fontWeight: FontWeight.w500)),
                   ),
           ),
           Container(
@@ -97,7 +95,9 @@ class _SignInPageState extends State<SignInPage> {
                     color: mainColor,
                   )
                 : RaisedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.to(SignUpPage());
+                    },
                     elevation: 0,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
