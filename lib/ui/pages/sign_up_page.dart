@@ -119,7 +119,7 @@ class _SignUpPageState extends State<SignUpPage> {
               child: Text(
                 'Continue',
                 style: GoogleFonts.poppins(
-                    color: Colors.white, fontWeight: FontWeight.w500),ss
+                    color: Colors.white, fontWeight: FontWeight.w500),
               ),
             ),
           ),
