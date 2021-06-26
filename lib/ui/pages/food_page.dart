@@ -42,8 +42,11 @@ class _FoodPageState extends State<FoodPage> {
                             fit: BoxFit.cover)),
                   )
                 ],
-              ))
+              )),
+
           // List of Food
+          FoodCard()
+
           // List of Food (Tabs)
         ])
       ],
