@@ -36,6 +36,8 @@ class _SignUpPageState extends State<SignUpPage> {
                       fit: BoxFit.cover)),
             ),
           ),
+
+          // Name Container
           Container(
             width: double.infinity,
             margin: EdgeInsets.fromLTRB(defaultMargin, 16, defaultMargin, 6),
@@ -52,13 +54,15 @@ class _SignUpPageState extends State<SignUpPage> {
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: Colors.black)),
             child: TextField(
-              controller: emailController,
+              controller: nameController,
               decoration: InputDecoration(
                   border: InputBorder.none,
                   hintStyle: greyFontStyle,
                   hintText: 'Type your full name'),
             ),
           ),
+
+          // Email Container
           Container(
             width: double.infinity,
             margin: EdgeInsets.fromLTRB(defaultMargin, 16, defaultMargin, 6),
@@ -82,6 +86,8 @@ class _SignUpPageState extends State<SignUpPage> {
                   hintText: 'Type your email address'),
             ),
           ),
+
+          // Password Container
           Container(
             width: double.infinity,
             margin: EdgeInsets.fromLTRB(defaultMargin, 16, defaultMargin, 6),
@@ -111,7 +117,9 @@ class _SignUpPageState extends State<SignUpPage> {
             height: 45,
             padding: EdgeInsets.symmetric(horizontal: defaultMargin),
             child: RaisedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(AddressPage());
+              },
               elevation: 0,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8)),
@@ -119,7 +127,7 @@ class _SignUpPageState extends State<SignUpPage> {
               child: Text(
                 'Continue',
                 style: GoogleFonts.poppins(
-                    color: Colors.white, fontWeight: FontWeight.w500),
+                    color: Colors.black, fontWeight: FontWeight.w500),
               ),
             ),
           ),
