@@ -1,4 +1,4 @@
-#Sun Jun 27 12:37:39 ICT 2021
+#Sun Jun 27 21:34:50 ICT 2021
 base.0=C\:\\src\\myapp\\food_market\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
