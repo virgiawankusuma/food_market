@@ -1,3 +1,4 @@
+// import 'dart:html';
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
@@ -9,6 +10,7 @@ import 'package:food_market/ui/widgets/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:food_market/shared/shared.dart';
 import 'package:intl/intl.dart';
+import 'package:intl/number_symbols_data.dart';
 import 'package:supercharged/supercharged.dart';
 import 'package:get/get.dart';
 
@@ -19,3 +21,4 @@ part 'address_page.dart';
 part 'main_page.dart';
 part 'food_page.dart';
 part 'food_details_page.dart';
+part 'payment_page.dart';
