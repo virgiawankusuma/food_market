@@ -31,6 +31,7 @@ dependencies:
   google_fonts: ^2.1.0
   intl: ^0.17.0
   material_design_icons_flutter: ^4.0.5955
+  # permission_handler: ^8.1.2
   supercharged: ^2.0.0
 
 dev_dependencies:
