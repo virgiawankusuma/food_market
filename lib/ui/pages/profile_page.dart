@@ -1,9 +1,9 @@
 part of 'pages.dart';
 
 class ProfilePage extends StatefulWidget {
-  final User user;
+  // final User user;
 
-  ProfilePage({this.user});
+  // ProfilePage({this.user});
 
   @override
   _ProfilePageState createState() => _ProfilePageState();
@@ -23,15 +23,17 @@ class _ProfilePageState extends State<ProfilePage> {
         children: [
           Container(
             padding: EdgeInsets.symmetric(horizontal: defaultMargin),
+            height: 220,
             margin: EdgeInsets.only(bottom: defaultMargin),
             width: double.infinity,
             color: Colors.white,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   width: 110,
                   height: 110,
-                  margin: EdgeInsets.only(top: 26),
+                  margin: EdgeInsets.only(bottom: 16),
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                       image: DecorationImage(
@@ -40,26 +42,18 @@ class _ProfilePageState extends State<ProfilePage> {
                     decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         image: DecorationImage(
-                            image: AssetImage('assets/photo.png'),
+                            image: NetworkImage(
+                                (context.read<UserCubit>().state as UserLoaded)
+                                    .user
+                                    .picturePath),
                             fit: BoxFit.cover)),
                   ),
                 ),
-                Container(
-                    margin: EdgeInsets.only(top: 26),
-                    padding: EdgeInsets.all(10),
-                    child: Column(
-                      children: [
-                        Text(
-                          mockUser.name,
-                          style: blackFontStyle3.copyWith(
-                              fontSize: 18, fontWeight: FontWeight.w500),
-                        ),
-                        Text(
-                          mockUser.email,
-                          style: greyFontStyle,
-                        )
-                      ],
-                    )),
+                Text((context.read<UserCubit>().state as UserLoaded).user.name,
+                    style: GoogleFonts.poppins(
+                        fontSize: 18, fontWeight: FontWeight.w500)),
+                Text((context.read<UserCubit>().state as UserLoaded).user.email,
+                    style: greyFontStyle.copyWith(fontWeight: FontWeight.w300)),
               ],
             ),
           ),

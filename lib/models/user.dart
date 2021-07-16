@@ -34,4 +34,4 @@ User mockUser = User(
     phoneNumber: '08123456789',
     email: 'virgiawan@gmail.com',
     picturePath:
-        'https://instagram.fjog3-1.fna.fbcdn.net/v/t51.2885-19/s320x320/198834143_188054936555495_3379298835382881714_n.jpg?tp=1&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=X-uKCP0IStYAX9gaxCO&edm=ABfd0MgBAAAA&ccb=7-4&oh=0efd6b25926e3d0eaecbfea157398178&oe=60DF989F&_nc_sid=7bff83');
+        'https://pbs.twimg.com/profile_images/1397605207761035265/oyIYqc4__400x400.jpg');
