@@ -9,9 +9,9 @@
     },
     {
       "name": "bloc",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.3",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.12"
     },
     {
       "name": "boolean_selector",
@@ -87,9 +87,9 @@
     },
     {
       "name": "flutter_bloc",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.3",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_spinkit",
@@ -219,9 +219,9 @@
     },
     {
       "name": "provider",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.3",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
@@ -308,7 +308,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-15T20:43:40.505025Z",
+  "generated": "2021-07-16T05:56:16.548844Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }

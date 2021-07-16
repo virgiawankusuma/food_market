@@ -43,7 +43,7 @@ class _FoodPageState extends State<FoodPage> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage('assets/photo1.png'),
+                            image: AssetImage('assets/photo.png'),
                             fit: BoxFit.cover)),
                   )
                 ],
